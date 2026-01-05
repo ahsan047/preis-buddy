@@ -12,6 +12,31 @@ const MARKETPLACE_CONFIG = {
 
 type MarketplaceKey = keyof typeof MARKETPLACE_CONFIG
 
+// Generate Amazon URL with affiliate tag
+export function generateAmazonUrl(asin: string, market: string, tag?: string | null): string | null {
+  if (!asin || !market) {
+    return null
+  }
+
+  const validMarkets: Array<'de' | 'fr' | 'it' | 'es'> = ['de', 'fr', 'it', 'es']
+  const marketKey = market.toLowerCase() as MarketplaceKey
+  
+  if (!validMarkets.includes(marketKey)) {
+    return null
+  }
+
+  const { domain, tag: defaultTag } = MARKETPLACE_CONFIG[marketKey]
+  
+  // Use provided tag from URL if available and not empty, otherwise use default tag from config
+  // Priority: URL tag > default tag
+  let affiliateTag: string = defaultTag
+  if (tag !== undefined && tag !== null && tag.trim() !== '') {
+    affiliateTag = tag.trim()
+  }
+  
+  return `https://www.amazon.${domain}/dp/${asin}?tag=${affiliateTag}`
+}
+
 export interface ApiProduct {
   id: string
   title: string

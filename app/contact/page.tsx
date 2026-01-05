@@ -16,23 +16,23 @@ export default function ContactPage() {
             
             <div className="space-y-4">
               <div>
-                <p className="font-semibold text-gray-900 mb-1">Flipscope</p>
-                <p>Sara Köninger</p>
-                <p>Häuserweg 8</p>
-                <p>76698 Ubstadt-Weiher</p>
+                <p className="font-semibold text-gray-900 mb-1">Willy Grimme</p>
+                <p>c/o Postflex #8701</p>
+                <p>Emsdettener Str. 10</p>
+                <p>48268 Greven</p>
               </div>
               
               <div className="pt-4 border-t border-purple-200">
                 <p className="mb-2">
                   <span className="font-semibold">Telefon:</span>{' '}
-                  <a href="tel:015785747147" className="text-purple-600 hover:text-purple-700 underline">
-                    015785747147
+                  <a href="tel:01742408530" className="text-purple-600 hover:text-purple-700 underline">
+                    01742408530
                   </a>
                 </p>
                 <p>
                   <span className="font-semibold">E-Mail:</span>{' '}
-                  <a href="mailto:info@catchycreatorsclub.de" className="text-purple-600 hover:text-purple-700 underline">
-                    info@catchycreatorsclub.de
+                  <a href="mailto:catchy.ytbe@gmail.com" className="text-purple-600 hover:text-purple-700 underline">
+                    catchy.ytbe@gmail.com
                   </a>
                 </p>
               </div>

@@ -18,13 +18,13 @@ export default function PrivacyPage() {
             
             <p className="mb-2"><strong>1.1</strong> Wir freuen uns, dass Sie unseren Internet-Auftritt (nachfolgend „Website") besuchen und bedanken uns für Ihr Interesse. Im Folgenden informieren wir Sie über den Umgang mit Ihren personenbezogenen Daten bei Nutzung unserer Website. Personenbezogene Daten sind hierbei alle Daten, mit denen Sie persönlich identifiziert werden können.</p>
             
-            <p className="mb-2"><strong>1.2</strong> Verantwortlicher für die Datenverarbeitung im Sinne der Datenschutz-Grundverordnung (DSGVO) ist Flipscope</p>
+            <p className="mb-2"><strong>1.2</strong> Verantwortlicher für die Datenverarbeitung im Sinne der Datenschutz-Grundverordnung (DSGVO) ist Willy Grimme</p>
             
             <div className="ml-4 space-y-1 mb-2">
-              <p>Sara Köninger</p>
-              <p>Häuserweg 8</p>
-              <p>76698 Ubstadt-Weiher</p>
-              <p>E-Mail: <a href="mailto:info@catchycreatorsclub.de" className="text-purple-600 hover:text-purple-700 underline">info@catchycreatorsclub.de</a></p>
+              <p>c/o Postflex #8701</p>
+              <p>Emsdettener Str. 10</p>
+              <p>48268 Greven</p>
+              <p>E-Mail: <a href="mailto:catchy.ytbe@gmail.com" className="text-purple-600 hover:text-purple-700 underline">catchy.ytbe@gmail.com</a></p>
             </div>
             
             <p>Der für die Verarbeitung von personenbezogenen Daten Verantwortliche ist diejenige natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten entscheidet.</p>

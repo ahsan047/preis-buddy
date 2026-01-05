@@ -57,19 +57,19 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <a href="tel:015785747147" className="text-gray-300 hover:text-white transition-colors text-sm flex items-center group">
+                <a href="tel:01742408530" className="text-gray-300 hover:text-white transition-colors text-sm flex items-center group">
                   <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                   </svg>
-                  015785747147
+                  01742408530
                 </a>
               </li>
               <li>
-                <a href="mailto:info@catchycreatorsclub.de" className="text-gray-300 hover:text-white transition-colors text-sm flex items-center group">
+                <a href="mailto:catchy.ytbe@gmail.com" className="text-gray-300 hover:text-white transition-colors text-sm flex items-center group">
                   <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
-                  info@catchycreatorsclub.de
+                  catchy.ytbe@gmail.com
                 </a>
               </li>
             </ul>
@@ -79,10 +79,11 @@ export default function Footer() {
           <div className="space-y-4">
             <h3 className="text-lg font-bold text-white mb-4">Firmendaten</h3>
             <div className="text-gray-300 text-sm space-y-2">
-              <p className="font-semibold text-white">Flipscope</p>
-              <p>Sara Köninger</p>
-              <p>Häuserweg 8</p>
-              <p>76698 Ubstadt-Weiher</p>
+              <p className="font-semibold text-white">Willy Grimme</p>
+              <p>c/o Postflex #8701</p>
+              <p>Emsdettener Str. 10</p>
+              <p>48268 Greven</p>
+              <p className="text-xs italic">Keine Pakete oder Päckchen - Annahme wird verweigert!</p>
             </div>
           </div>
         </div>
